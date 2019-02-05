@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35567" started-at="2019-02-04T13:26:54Z" finished-at="2019-02-04T13:27:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35567" started-at="2019-02-04T13:26:54Z" finished-at="2019-02-04T13:27:29Z">
+      <class name="test.Filpkartflow">
+        <test-method status="PASS" signature="extentreport()[pri:0, instance:test.Filpkartflow@4883b407]" name="extentreport" is-config="true" duration-ms="348" started-at="2019-02-04T18:56:54Z" finished-at="2019-02-04T18:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport -->
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:test.Filpkartflow@4883b407]" name="OpenApp" is-config="true" duration-ms="11193" started-at="2019-02-04T18:56:55Z" finished-at="2019-02-04T18:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="BasicFlow(java.lang.String, java.lang.String)[pri:0, instance:test.Filpkartflow@4883b407]" name="BasicFlow" duration-ms="53" started-at="2019-02-04T18:57:06Z" data-provider="Excel" finished-at="2019-02-04T18:57:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9035718788]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lathavya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicFlow -->
+        <test-method status="PASS" signature="ReportsandCloseApp(org.testng.ITestResult)[pri:0, instance:test.Filpkartflow@4883b407]" name="ReportsandCloseApp" is-config="true" duration-ms="2147" started-at="2019-02-04T18:57:06Z" finished-at="2019-02-04T18:57:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BasicFlow status=SUCCESS method=Filpkartflow.BasicFlow(java.lang.String, java.lang.String)[pri:0, instance:test.Filpkartflow@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportsandCloseApp -->
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:test.Filpkartflow@4883b407]" name="OpenApp" is-config="true" duration-ms="9785" started-at="2019-02-04T18:57:08Z" finished-at="2019-02-04T18:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="BasicFlow(java.lang.String, java.lang.String)[pri:0, instance:test.Filpkartflow@4883b407]" name="BasicFlow" duration-ms="6" started-at="2019-02-04T18:57:18Z" data-provider="Excel" finished-at="2019-02-04T18:57:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lathavya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[buddya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicFlow -->
+        <test-method status="PASS" signature="ReportsandCloseApp(org.testng.ITestResult)[pri:0, instance:test.Filpkartflow@4883b407]" name="ReportsandCloseApp" is-config="true" duration-ms="1047" started-at="2019-02-04T18:57:18Z" finished-at="2019-02-04T18:57:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BasicFlow status=SUCCESS method=Filpkartflow.BasicFlow(java.lang.String, java.lang.String)[pri:0, instance:test.Filpkartflow@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportsandCloseApp -->
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:test.Filpkartflow@4883b407]" name="OpenApp" is-config="true" duration-ms="9049" started-at="2019-02-04T18:57:19Z" finished-at="2019-02-04T18:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="BasicFlow(java.lang.String, java.lang.String)[pri:0, instance:test.Filpkartflow@4883b407]" name="BasicFlow" duration-ms="5" started-at="2019-02-04T18:57:28Z" data-provider="Excel" finished-at="2019-02-04T18:57:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chandra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mohan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasicFlow -->
+        <test-method status="PASS" signature="ReportsandCloseApp(org.testng.ITestResult)[pri:0, instance:test.Filpkartflow@4883b407]" name="ReportsandCloseApp" is-config="true" duration-ms="1197" started-at="2019-02-04T18:57:28Z" finished-at="2019-02-04T18:57:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BasicFlow status=SUCCESS method=Filpkartflow.BasicFlow(java.lang.String, java.lang.String)[pri:0, instance:test.Filpkartflow@4883b407] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportsandCloseApp -->
+      </class> <!-- test.Filpkartflow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

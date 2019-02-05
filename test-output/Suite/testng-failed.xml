@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.Filpkartflow"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.Filpkartflow">
+        <methods>
+          <include name="BasicFlow"/>
+          <include name="ReportsandCloseApp"/>
+          <include name="OpenApp"/>
+          <include name="extentreport"/>
+        </methods>
+      </class> <!-- test.Filpkartflow -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
